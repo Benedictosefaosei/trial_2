@@ -1,0 +1,18 @@
+[
+  {
+    "filePath": "/Users/benedictoseisefa/Desktop/api/urls.py",
+    "range": {
+      "start": {
+        "line": 26,
+        "character": 4
+      },
+      "end": {
+        "line": 26,
+        "character": 79
+      }
+    },
+    "text": "first question for trial two",
+    "highlightedCode": "path('category/', store_views.CategoryListView.as_view(), name='category'),",
+    "answer": "first answer for trial two"
+  }
+]

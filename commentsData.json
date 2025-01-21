@@ -1,0 +1,19 @@
+[
+  {
+    "filePath": "/Users/benedictoseisefa/Desktop/api/urls.py",
+    "range": {
+      "start": {
+        "line": 13,
+        "character": 4
+      },
+      "end": {
+        "line": 19,
+        "character": 103
+      }
+    },
+    "text": "first comment for trial two",
+    "highlightedCode": "path('user/token/', userauths_views.MyTokenObtainPairView.as_view(), name='token_obtain_pair'),\n    path('user/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),\n    path('user/register/', userauths_views.RegisterView.as_view(), name='auth_register'),\n    path('user/profile/<user_id>/', userauths_views.ProfileView.as_view(), name='user_profile'),\n    path('user/test/', userauths_views.testEndPoint, name='auth_register'),\n    path('user/password-reset/<email>/', userauths_views.PasswordEmailVerify.as_view(), name='password_reset'),\n    path('user/password-change/', userauths_views.PasswordChangeView.as_view(), name='password_reset'),",
+    "replies": [],
+    "resolved": false
+  }
+]
